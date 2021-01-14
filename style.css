@@ -6,25 +6,66 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 50vw;
-    width: 50vw;
+    height: 55vw;
+    width: 55vw;
 }
 
 .row {
+    background-color: #b9b9b9;
     display: flex;
     flex: 1;
     flex-direction: row;
+    border-bottom: 3px dotted;
+    box-sizing: border-box;
 }
 
 .cell {
     background-color: #b9b9b9;
     flex: 1;
-    outline-style: dotted;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 3px dotted;
+    box-sizing: border-box;
 }
 
+/* #close {
+    border-bottom: none;
+    border-right: none;
+} */
+
+#bottom {
+    border-bottom: none;
+}
+
+
+#one img {
+    width: 65%;
+}
+
+#two img {
+    width: 65%;
+}
+
+#three img {
+    width: 65%;
+}
+
+#close img {
+    width: 100%;
+}
+
+#open img {
+    width: 100%;
+}
+
+
 .cell img {
-    width: 75%;
+    width: 65%;
+}
+
+
+
+#close {
+    border-bottom-style: solid;
 }
