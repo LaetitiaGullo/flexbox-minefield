@@ -17,10 +17,14 @@ main {
 }
 
 .cell {
-    background-color: #cbcbcb;
+    background-color: #b9b9b9;
     flex: 1;
     outline-style: dotted;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cell img {
+    width: 75%;
 }
