@@ -1,0 +1,26 @@
+main {
+    border-color: #cbcbcb;
+    border-style: groove;
+    border-width: 15px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 50vw;
+    width: 50vw;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.cell {
+    background-color: #cbcbcb;
+    flex: 1;
+    outline-style: dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
