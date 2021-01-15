@@ -30,15 +30,6 @@ main {
     box-sizing: border-box;
 }
 
-/* #close {
-    border-bottom: none;
-    border-right: none;
-} */
-
-/* #bottom {
-    border-bottom: none;
-} */
-
 
 #one img {
     width: 65%;
@@ -59,12 +50,9 @@ main {
 #close img {
     width: 105%;
     height: 108%;
+    border: none;
 }
 
 #open img {
     width: 100%;
 }
-
-/* #close {
-    border-bottom-style: solid;
-} */
