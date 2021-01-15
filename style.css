@@ -6,8 +6,9 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 55vw;
-    width: 55vw;
+    margin-top: 5%;
+    height: 40vw;
+    width: 40vw;
 }
 
 .row {
@@ -34,9 +35,9 @@ main {
     border-right: none;
 } */
 
-#bottom {
+/* #bottom {
     border-bottom: none;
-}
+} */
 
 
 #one img {
@@ -51,21 +52,19 @@ main {
     width: 65%;
 }
 
+#bomb img {
+    width: 65%;
+}
+
 #close img {
-    width: 100%;
+    width: 105%;
+    height: 108%;
 }
 
 #open img {
     width: 100%;
 }
 
-
-.cell img {
-    width: 65%;
-}
-
-
-
-#close {
+/* #close {
     border-bottom-style: solid;
-}
+} */
